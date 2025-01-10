@@ -1,242 +1,335 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 /* Common Style */
 
 .orangeColor {
-  color: rgb(253, 110, 10);
+    color: rgb(253, 110, 10);
 }
 
 .primaryBtn {
-  width: 200px;
-  height: 64px;
-  background-color: rgb(253, 110, 10);
-  color: white;
-  font-weight: 700;
-  font-size: 20px;
-  border-radius: 5px;
+    width: 200px;
+    height: 64px;
+    background-color: rgb(253, 110, 10);
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 /* Top banner */
 
 .topBanner {
-  background: rgb(255, 248, 243);
-  width: 100%;
-  height: 837px;
-  display: flex;
-  align-items: flex-end;
+    background: rgb(255, 248, 243);
+    width: 100%;
+    height: 837px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .allContent {
-  margin-left: 4%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.topBanner > .allContent > .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
+    margin-left: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.navbar > h1 {
-  font-family: Open Sans;
-  font-size: 45px;
-  font-weight: 800;
-  line-height: 61px;
-  letter-spacing: 0%;
-  text-align: left;
+.topBanner>.allContent>.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.navbar > nav {
-  margin-right: 30px;
-}
-.navbar > nav > ul > li {
-  list-style: none;
-  display: inline;
-  margin-right: 51px;
-  color: rgb(71, 71, 71);
-  font-family: Open Sans;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 27px;
-  letter-spacing: 0%;
-  text-align: left;
+.navbar>h1 {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.navbar > nav > ul > .hireMe {
-  margin-left: 40px;
-  background-color: rgb(253, 110, 10);
-  color: white;
-  padding: 20px 30px;
-  font-weight: 600;
-  border-radius: 5px;
-  margin-right: 150px;
+.navbar>nav {
+    margin-right: 30px;
 }
-.allContent > .content {
-  background-image: url(../images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  display: flex;
-  justify-content: space-between;
+
+.navbar>nav>ul>li {
+    list-style: none;
+    display: inline;
+    margin-right: 51px;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar>nav>ul>.hireMe {
+    margin-left: 40px;
+    background-color: rgb(253, 110, 10);
+    color: white;
+    padding: 20px 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 150px;
+}
+
+.allContent>.content {
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+    justify-content: space-between;
 }
 
 .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
-.info > h3 {
-  color: rgb(71, 71, 71);
-  font-family: Open Sans;
-  font-size: 45px;
-  font-weight: 600;
-  line-height: 61px;
-  letter-spacing: 0%;
-  text-align: left;
+.info>h3 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.info > h1 {
-  color: rgb(24, 24, 24);
-  font-family: Open Sans;
-  font-size: 85px;
-  font-weight: 700;
-  line-height: 116px;
-  letter-spacing: 0%;
-  text-align: left;
+
+.info>h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.info > p {
-  color: rgb(117, 117, 117);
-  font-family: Open Sans;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0%;
-  text-align: left;
+
+.info>p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 /* About Me section */
 
 .aboutMe {
-  width: 1140px;
-  height: 550px;
-  margin: 120px auto;
-  background-color: rgb(255, 248, 243);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 1140px;
+    height: 550px;
+    margin: 120px auto;
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.aboutMe > .content {
-  gap: 30px;
-  padding: 40px;
-  width: 827px;
-  height: 288px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.aboutMe>.content {
+    gap: 30px;
+    padding: 40px;
+    width: 827px;
+    height: 288px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.content > h1 {
-  color: rgb(24, 24, 24);
-  font-family: Open Sans;
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0%;
-  text-align: center;
+.content>h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
-.content > p {
-  color: rgb(117, 117, 117);
-  font-family: Open Sans;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0%;
-  text-align: center;
+.content>p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
-.content > .aboutInfo {
-  display: flex;
-  gap: 40px;
+
+.content>.aboutInfo {
+    display: flex;
+    gap: 40px;
 }
-.aboutInfo > h1 {
-  text-align: center;
+
+.aboutInfo>h1 {
+    text-align: center;
 }
 
 /* What I do section */
 
 .whatIdo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 1140px;
-  margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    margin: 120px auto;
 }
 
-.whatIdo > h1 {
-  color: rgb(24, 24, 24);
-  font-family: Open Sans;
-  font-size: 35px;
-  font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-bottom: 50px;
+.whatIdo>h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.whatIdo > p {
-  color: rgb(117, 117, 117);
-  font-family: Open Sans;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0%;
-  text-align: center;
+.whatIdo>p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
-.whatIdo > .fields {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-  gap: 30px;
+.whatIdo>.fields {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 30px;
 }
 
 .fieldName {
-  display: flex;
-  padding: 30px;
-  flex-direction: column;
-  width: 200px;
-  height: 310px;
-  flex-wrap: wrap;
-  gap: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  background: rgb(255, 255, 255);
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    width: 200px;
+    height: 310px;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
 }
 
-.fieldName > h1 {
-  color: rgb(24, 24, 24);
-  font-family: Open Sans;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 27px;
-  letter-spacing: 0%;
-  text-align: left;
+.fieldName>h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.fieldName > p {
-  color: rgb(117, 117, 117);
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: left;
+.fieldName>p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Experience Section */
+
+.experiences {
+    width: 1140px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiences>h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.experiences>.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container>.column {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column>h1 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.column>.edu {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.edu>h1 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.edu>h3 {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.edu>p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.column>hr {
+    width: 80%;
+    border: 1px solid rgb(224, 224, 224);
 }
